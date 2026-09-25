@@ -21,6 +21,12 @@
 pip install templexl
 ```
 
+或使用 [uv](https://docs.astral.sh/uv/)：
+
+```bash
+uv add templexl
+```
+
 需求：Python 3.12+。
 
 ## 快速開始

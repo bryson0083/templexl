@@ -21,6 +21,12 @@ then fill them with data via `{{variable}}` and `#{{dataframe}}` tags to produce
 pip install templexl
 ```
 
+or with [uv](https://docs.astral.sh/uv/):
+
+```bash
+uv add templexl
+```
+
 Requirements: Python 3.12+.
 
 ## Quick Start
