@@ -1,0 +1,41 @@
+[project]
+name = "templexl"
+version = "0.1.0"
+description = "An Excel template reporting engine built on openpyxl — use an Excel file as the template and render your data into a report."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Bryson Xue", email = "bryson0083@gmail.com" }]
+keywords = ["excel", "openpyxl", "template", "report", "xlsx", "spreadsheet", "xlwings-reports"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+]
+dependencies = [
+    "lxml>=5.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.0.3",
+    "pillow>=12.3.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bryson0083/templexl"
+Repository = "https://github.com/bryson0083/templexl"
+Issues = "https://github.com/bryson0083/templexl/issues"
+
+[dependency-groups]
+dev = ["pytest>=8.3.5"]
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
