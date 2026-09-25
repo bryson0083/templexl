@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/templexl_logo.png" alt="templexl logo" width="200">
+  <img src="https://raw.githubusercontent.com/bryson0083/templexl/main/docs/assets/templexl_logo.png" alt="templexl logo" width="200">
 </p>
 
 # Temple**xl**
